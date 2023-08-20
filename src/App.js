@@ -26,7 +26,7 @@ const App = () => {
     <>
     <Header/>
     <main>
-      <section className="menu section">
+      <section className="menusection">
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
           <h2>Menu List</h2>
