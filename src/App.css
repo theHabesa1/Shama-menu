@@ -75,4 +75,9 @@
   margin-bottom: 0;
 }
  
+.menu {
+  padding-top: 50px; /* Adjust the padding value as needed */
+  padding-bottom: 50px; /* You can also adjust the bottom padding if necessary */
+}
+
 

@@ -26,7 +26,7 @@ const App = () => {
     <>
     <Header/>
     <main>
-      <section className="menusection">
+      <section className="menu section"  style={{ paddingTop: "10px" /* Adjust the padding value as needed */ }}>
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
           <h2>Menu List</h2>
