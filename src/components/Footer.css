@@ -1,0 +1,26 @@
+/* Footer.css */
+
+footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footerContent img {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 5px;
+  }
+  
+  .footerContent p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
