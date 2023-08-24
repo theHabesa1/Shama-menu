@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./components/data/addburgerdata";
-import logo from "./logo.JPG";
+import logo from "./components/logos/add logo.png";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
@@ -28,7 +28,7 @@ const AddMenu = () => {
     <main>
       <section className="menu section"  style={{ paddingTop: "10px"  }}>
         <div className="title">
-          {/* <img src={logo} alt="logo" className="logo" /> */}
+          <img src={logo} alt="logo" className="logo" />
           <h2>Menu List</h2>
           <div className="underline"></div>
         </div>

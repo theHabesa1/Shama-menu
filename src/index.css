@@ -115,8 +115,9 @@ p {
   object-fit: cover;
   height: auto;
   width: 200px;
-  border-radius: 0.25rem;  
+  border-radius: 50%; /* Make the logo circular */
 }
+
 
 .item-info header {
   display: flex;
