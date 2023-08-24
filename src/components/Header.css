@@ -17,7 +17,7 @@ header {
   
   /* Style for the left logo image */
   .logoLeft img {
-    width: 90px; /* Adjust the width as needed */
+    width: 80px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
   }
   
@@ -29,7 +29,7 @@ header {
   
   /* Style for the right logo image */
   .logoRight img {
-    width: 30px; /* Adjust the width as needed */
+    width: 20px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px;
     opacity: 0.8; /* Maintain the aspect ratio */

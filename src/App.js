@@ -1,48 +1,17 @@
-import React, { useState } from "react";
-import Menu from "./Menu";
-import Categories from "./Categories";
-import items from "./data";
-import logo from "./logo.JPG";
-import Header from "./components/header";
-import Footer from "./components/footer";
-
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
-
-const App = () => {
-  const [menuItems, setMenuItems] = useState(items);
-  const [activeCategory, setActiveCategory] = useState("");
-  const [categories, ] = useState(allCategories);
-
-  const filterItems = (category) => {
-    setActiveCategory(category);
-    if (category === "all") {
-      setMenuItems(items);
-      return;
-    }
-    const newItems = items.filter((item) => item.category === category);
-    setMenuItems(newItems);
-  };
+import { Routes, Route } from "react-router-dom";
+import AddMenu from "./addMenu";
+import NotFound from "./page404";
+function App() {
   return (
     <>
-    <Header/>
-    <main>
-      <section className="menu section"  style={{ paddingTop: "10px"  }}>
-        <div className="title">
-          <img src={logo} alt="logo" className="logo" />
-          <h2>Menu List</h2>
-          <div className="underline"></div>
-        </div>
-        <Categories
-          categories={categories}
-          activeCategory={activeCategory}
-          filterItems={filterItems}
-        />
-        <Menu items={menuItems} />
-      </section>
-    </main>
-    <Footer/>
+      <Routes>
+        
+          <Route path="/addburger" element={<AddMenu />} />
+          <Route path="*" element={<NotFound />} />
+     
+      </Routes>
     </>
   );
-};
+}
 
 export default App;
