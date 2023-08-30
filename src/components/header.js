@@ -1,5 +1,5 @@
 import React from 'react';
-import awashLogo from '../components/awash.png'
+import amharaLogo from '../components/amhara bank.png'
 import teleLogo from '../components/telegram.png'
 import facebookLogo from '../components/fb.png'
 import instaLogo from '../components/insta.png'
@@ -10,22 +10,22 @@ function Header() {
   return (
     <header>
       <div className="logoLeft">
-        <a href="https://www.example.com">
-          <img src={awashLogo} alt="Logo 1" /> 
+        <a href="https://www.amharabank.com.et/">
+          <img src={amharaLogo} alt="Logo 1" /> 
         </a>
       </div>
 
       <div className="logoRight">
-        <a href="https://www.telegram.com">
+        <a href="https://t.me/Amhara_Banksc">
           <img src={teleLogo} alt="Telegram" />
         </a>
-        <a href="https://www.facebook.com">
+        <a href="https://www.facebook.com/amharabanksc1">
           <img src={facebookLogo} alt="Facebook" />
         </a>
-        <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com/amhara_bank/">
           <img src={instaLogo} alt="Instagram" />
         </a>
-        <a href="https://www.youtube.com">
+        <a href="https://www.youtube.com/channel/UC73x9uuGYV0Uxw0EkpVZN8g">
           <img src={youLogo} alt="YouTube" />
         </a>
       </div>

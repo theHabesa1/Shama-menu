@@ -49,7 +49,7 @@ p {
   }
 }
 .menu {
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 .title {
   text-align: center;
@@ -115,9 +115,8 @@ p {
   object-fit: cover;
   height: auto;
   width: 200px;
-  border-radius: 50%; /* Make the logo circular */
+  border-radius: 0%;  
 }
-
 
 .item-info header {
   display: flex;
@@ -146,24 +145,24 @@ p {
     grid-template-columns: 25px 1fr;
     gap: 0 1.25rem;
     display: block;
-    width: auto;
+    width: 150px;
     box-shadow: 0 4px 6px -4px black;
     border-radius: 8px;
   }
   
   .photo {
-    height: 100px;
+    height: 150px;
   }
  
 }
 @media screen and (min-width: 100px) {
   .section-center {
-    width: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     cursor: pointer;
   }
   .photo {
-    height: 100px;
+    height: 150px;
   }
 }
